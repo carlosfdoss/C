@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+
+int main()
+{
+    int x, i, N, M;
+
+    printf("Deseja tabuada para qual valor?");
+    scanf("%d", &x);
+
+    N = 10;
+    for (i = 1; i <= N; i++){
+        M = i*x;
+        printf("%d x %d = %d\n", x, i, M);
+    }
+
+    return 0;
+}
